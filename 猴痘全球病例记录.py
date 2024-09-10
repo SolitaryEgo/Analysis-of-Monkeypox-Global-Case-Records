@@ -1,5 +1,5 @@
 import pandas as pd
-from pyecharts.charts import Line, Bar
+from pyecharts.charts import Line
 import pyecharts.options as opts
 
 df = pd.read_csv('./monkeypox.csv')
